@@ -11,6 +11,6 @@ problem1 xs = sum[x | x <- xs, x `mod` 3 == 0 || x `mod` 5 == 0]
 problem2 :: Int->Int
 problem2 0 = 0
 problem2 1 = 1
-problem2 n = let x = (problem2(n-1) + problem2(n-2)
+--problem2 n = let x = (problem2(n-1) + problem2(n-2)
 --run statement
 --takeWhile (<4000000) (map problem2 [1..1000])
